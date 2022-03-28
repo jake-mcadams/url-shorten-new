@@ -1,0 +1,27 @@
+{
+  "name": "url-shortening-api-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "startDev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake-mcadams/url-shorten.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jake-mcadams/url-shorten/issues"
+  },
+  "homepage": "https://github.com/jake-mcadams/url-shorten#readme",
+  "devDependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6",
+    "nanoid": "^3.3.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
